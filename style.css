@@ -1,0 +1,188 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color:#000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+body{
+    margin: 0px;
+    /* modify background color here*/
+    background-color:rgb(193, 172, 54);
+    
+}
+
+.header2{
+    background-color: rgb(66, 20, 20);
+    display:grid;
+    align-self:center;
+    text-align: center;
+    justify-content:center;
+    border-style:ridge;
+    width: 13.3in;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+h3{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255)
+}
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    
+}
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+.ML {
+    
+    border-radius: 100px;
+    background-color: rgb(255, 247, 88);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    margin-left: 100px;
+    margin-top: 75px;
+    font-family: cursive;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+}
+
+.Unity {
+    border-radius: 10%;
+    background-color: rgb(206, 47, 47);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 50px;
+    top: -400px;
+    width:200px;
+    margin-left: 800px;
+    height: 500px;
+    font-family: cursive;
+    font-weight: 100;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    text-align: center;
+    font-weight: 900;
+}
+
+.JS {
+
+    border-radius: 25%;
+    background-color:rgb(255, 171, 14);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:600px;
+    height: 255px;
+    margin-left: 10px;
+    font-family: cursive;
+    font-weight: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -400px;
+    font-weight: 900;
+}
+
+
+.JAVA {
+    
+    border-radius: 100px;
+    background-color:rgb(108,105,096);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    height: 325px;
+    margin-left: 800px;
+    font-family: cursive;
+    font-weight: 100;           
+    text-align: center;
+    margin-top: -300px;
+    font-weight: 900;
+}
+
+.ABOUTME
+{
+    border-radius: 100px;
+    background-color:rgb(255, 255, 255);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:225px;
+    height: 225px;
+    margin-left: 450px;
+    font-family: cursive;
+    font-weight: 100;           
+    text-align: center;
+    margin-top: -750px;
+    font-weight: 900;
+    font-size: 60%;
+}
+
+.instructions
+{
+    border-radius: 100px;
+    background-color:rgb(255, 255, 255);
+    /* modify margin and padding here*/
+    padding: 30px;
+    margin: 25px;
+    width:600px;
+    height: 50px;
+    margin-left: 525px;
+    font-family: cursive;
+    font-weight: 100;           
+    text-align: center;
+    margin-top: -750px;
+    font-weight: 900;
+    font-size: 75%;
+    color: blue;
+}
+
+h4{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    margin-left: 105px;
+    margin-top: 25px;
+    justify-self: center;
+    transform: translate(-40%, -40%);
+}
+
+.ML:hover{
+    transform: scale(1.2);  
+}
+.Unity:hover{
+    transform: scale(1.2);
+}
+
+.JS:hover{
+    transform: scale(1.2);
+}
+.JAVA:hover{
+    transform: scale(1.2);
+}
+.ABOUTME:hover{
+    transform: scale(1.2);
+}
+
+
+
