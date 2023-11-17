@@ -1,23 +1,39 @@
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 15px 20px 30px;
+    color:whitesmoke;
+    font:xx-small;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
-    background-color:#000000;
+    background-image: url("Images/Space.jpg");
     padding: 15px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: #ffffff;
 }
+
+.grid{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 body{
     margin: 0px;
     /* modify background color here*/
-    background-color:rgb(193, 172, 54);
-    
+    background-image: url("Images/Space.jpg");
 }
 
 .header2{
     background-color: rgb(66, 20, 20);
-    display:grid;
+    display:grid;   
     align-self:center;
     text-align: center;
     justify-content:center;
@@ -25,12 +41,12 @@ body{
     width: 13.3in;
     justify-content: center;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 h3{
     font-size: large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:rgb(255, 255, 255)
 }
 
@@ -49,13 +65,13 @@ h3{
 .ML {
     
     border-radius: 100px;
-    background-color: rgb(255, 247, 88);
+    background-color: rgb(133, 128, 36);
     /* modify margin and padding here*/
     padding: 30px;
     margin: 25px;
     width:310px;
-    margin-left: 100px;
-    margin-top: 75px;
+    margin-left: 50px;
+    margin-top: 255px;
     font-family: cursive;
     font-weight: 100;
     justify-content: center;
@@ -66,7 +82,7 @@ h3{
 
 .Unity {
     border-radius: 10%;
-    background-color: rgb(206, 47, 47);
+    background-color: rgb(103, 14, 14);
     /* modify margin and padding here*/
     padding: 30px;
     margin: 50px;
@@ -81,12 +97,13 @@ h3{
     position:relative;
     text-align: center;
     font-weight: 900;
+    margin-top: 450px;
 }
 
 .JS {
 
     border-radius: 25%;
-    background-color:rgb(255, 171, 14);
+    background-color:rgb(128, 85, 7);
     /* modify margin and padding here*/
     padding: 30px;
     margin: 25px;
@@ -98,7 +115,7 @@ h3{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: -400px;
+    margin-top: -1000px;
     font-weight: 900;
 }
 
@@ -106,7 +123,7 @@ h3{
 .JAVA {
     
     border-radius: 100px;
-    background-color:rgb(108,105,096);
+    background-color:rgb(86, 84, 77);
     /* modify margin and padding here*/
     padding: 30px;
     margin: 25px;
@@ -116,14 +133,14 @@ h3{
     font-family: cursive;
     font-weight: 100;           
     text-align: center;
-    margin-top: -300px;
+    margin-top: -900px;
     font-weight: 900;
 }
 
 .ABOUTME
 {
     border-radius: 100px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(88, 69, 69);
     /* modify margin and padding here*/
     padding: 30px;
     margin: 25px;
@@ -131,11 +148,10 @@ h3{
     height: 225px;
     margin-left: 450px;
     font-family: cursive;
-    font-weight: 100;           
+    font-weight: 500;           
     text-align: center;
-    margin-top: -750px;
-    font-weight: 900;
-    font-size: 60%;
+    margin-top: -450px;
+    font-size: 150%;
 }
 
 .instructions
@@ -157,14 +173,46 @@ h3{
     color: blue;
 }
 
+.home-icon{
+    align-self: center;
+    margin-left: 40%;
+    margin-top: -195px;
+}
+
+.central-image{
+    margin-left:35%;
+    margin-top: 150px;
+}
+
+.description
+{
+    font-family: sans-serif;
+    padding-left:  3000px;
+    padding-top: 100px;
+    font-weight: lighter;
+    align-items: center;
+}
+
 h4{
-    color:black;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    position: relative;
-    margin-left: 105px;
-    margin-top: 25px;
-    justify-self: center;
-    transform: translate(-40%, -40%);
+    font-size: large;
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h5{
+    padding-left: 175px;
+    font-size: large;
+    color:rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+a:visited{
+    color:goldenrod;
+}
+
+a{
+    color:whitesmoke;
 }
 
 .ML:hover{
@@ -184,5 +232,8 @@ h4{
     transform: scale(1.2);
 }
 
+img {
+    border-radius: 25%;
+  }
 
 
