@@ -215,21 +215,49 @@ a{
     color:whitesmoke;
 }
 
+.column {
+    float: left;
+    }
+
+    /* Set width length for the left, right and middle columns */
+    .left {
+    width: 50%;
+    }
+
+    .middle {
+    width: 50%;
+    }
+    
+    .right {
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
 .ML:hover{
     transform: scale(1.2);  
+    opacity: 75%;
 }
 .Unity:hover{
     transform: scale(1.2);
+    opacity: 75%;
 }
 
 .JS:hover{
     transform: scale(1.2);
+    opacity: 75%;
 }
 .JAVA:hover{
     transform: scale(1.2);
+    opacity: 75%;
 }
 .ABOUTME:hover{
     transform: scale(1.2);
+    opacity: 75%;
 }
 
 img {
